@@ -6,7 +6,7 @@ $pc: 1200px;
   }
 }
 
-$md: 768px;
+$md: 767px;
 @mixin md {
   @media (max-width: ($md)) {
     @content;
@@ -180,11 +180,11 @@ a:hover {
 @keyframes fadeUpAnime {
  from {
   opacity: 0;
-  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
  }
  to {
   opacity: 1;
-  transform: translateY(calc(-50% - 30px));
+  transform: translate(-50%, calc(-50% - 30px));
  }
 }
 
@@ -281,7 +281,7 @@ a:hover {
 	}
 }
 .ios .main-img {
-	background-attachment: inherit;
+	background-attachment: inherit !important;
 }
 .concept-img {
 	@include md {
@@ -769,6 +769,8 @@ a:hover {
 		bottom: -18px;
 		@include md {
 			width: 27px;
+			left: -7px;
+			bottom: -14px;
 		}
 	}
 }

@@ -9,11 +9,14 @@
 })(document);
 
 // ios
-if(navigator.userAgent.match(/MSIE 10/i) || navigator.userAgent.match(/Trident\/7\./)) {
-	$(function(){
-  $("body").addClass("ios");
- });
-}
+var ua = navigator.userAgent;
+	if(ua.indexOf('iPhone') > 0 || ua.indexOf('iPad') > 0){
+		$(function(){
+			$("body").addClass("ios");
+		});
+	}
+
+
 
 // スムーススクロール
 $(function(){
@@ -54,7 +57,7 @@ $(document).ready(function(){
 
 // slider
 $(function() {
- if (window.matchMedia("screen and (max-width: 768px)").matches) {
+ if (window.matchMedia("screen and (max-width: 767px)").matches) {
 			$(document).ready(function() {
 				$(".slider").bxSlider({
      easing: 'easeOutBounce',
