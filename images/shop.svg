@@ -1,0 +1,29 @@
+<svg id="グループ_162" data-name="グループ 162" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.714" height="24" viewBox="0 0 25.714 24">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+        stroke: #881ea4;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="長方形_79" data-name="長方形 79" class="cls-1" width="25.714" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_160" data-name="グループ 160" class="cls-2">
+    <path id="パス_232" data-name="パス 232" class="cls-3" d="M7.857,1,7,8.936a2.9,2.9,0,0,1-3,2.778A2.9,2.9,0,0,1,1,8.936l1.576-7.3A.844.844,0,0,1,3.417,1H22.583a.844.844,0,0,1,.841.638L25,8.936a3.009,3.009,0,0,1-6,0L18.143,1" transform="translate(-0.143 -0.143)"/>
+    <path id="パス_233" data-name="パス 233" class="cls-3" d="M14,1V8.936a2.9,2.9,0,0,1-3,2.778A2.9,2.9,0,0,1,8,8.936L8.857,1" transform="translate(-1.143 -0.143)"/>
+    <path id="パス_234" data-name="パス 234" class="cls-3" d="M20.143,1,21,8.936a2.9,2.9,0,0,1-3,2.778,2.9,2.9,0,0,1-3-2.778V1" transform="translate(-2.143 -0.143)"/>
+    <path id="パス_235" data-name="パス 235" class="cls-3" d="M22.714,13.628v9.747A1.714,1.714,0,0,1,21,25.09H4.714A1.714,1.714,0,0,1,3,23.375V13.628" transform="translate(-0.429 -1.947)"/>
+    <path id="パス_236" data-name="パス 236" class="cls-3" d="M10.389,25.571V20.429A3.429,3.429,0,0,1,13.818,17h.524a3.429,3.429,0,0,1,3.429,3.429v5.143" transform="translate(-1.484 -2.429)"/>
+  </g>
+</svg>
